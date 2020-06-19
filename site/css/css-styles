@@ -1,0 +1,55 @@
+ *{
+ 	box-sizing:border-box;
+ }
+#box{
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 2px solid black;
+	background: plum;
+}
+#box1{
+	align-items: center;
+}
+ h1{
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-family: arial black;
+	font-size:175%;
+	
+}
+
+h2 {
+	width: 150px;
+	border: 2px solid black;
+	color: black;
+	background: pink;
+	border: 2px solid black;
+	font-family: arial black;
+}
+p{
+	font-family: arial black;
+	font-size: 75%;
+}
+
+
+h3 {
+	width: 150px;
+	color: white;
+	background:red;
+	font-family: arial black;
+	border: 2px solid black;
+}
+h4 {
+	width: 150px;
+	color: black;
+	background:yellow;
+	font-family: arial black;
+	border: 2px solid black;
+}
+
+.row{
+	width:100%;
+}
