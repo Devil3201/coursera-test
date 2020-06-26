@@ -2,15 +2,22 @@
  	box-sizing:border-box;
  }
 #box{
+	position: relative;
 	margin-right: 50px;
 	margin-left: 50px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	border: 2px solid black;
+	border: 1px solid black;
 	background: plum;
+	height:100%;
 }
 #box1{
-	align-items: center;
+	position: absolute;
+	text-align: center;
+	box-align: right;
+	margin-top: 0px;
+	top: 0px;
+	right: 0px;
 }
  h1{
 	color: black;
@@ -32,6 +39,8 @@ h2 {
 p{
 	font-family: arial black;
 	font-size: 75%;
+	margin-top: 50px;
+
 }
 
 
